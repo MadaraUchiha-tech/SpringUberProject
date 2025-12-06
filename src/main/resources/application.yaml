@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Uber
+  mongodb:
+    uri: mongodb://localhost:27017/rideshare_db
+
+app:
+  jwt:
+    secret: lsjcvekcewkcqeknewkcqeljnwjqrlfjqwfjq3fqwfqw;ndflqw
+    expiration-ms: 86400000
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: DEBUG
