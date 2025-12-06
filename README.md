@@ -37,6 +37,20 @@ This is a simple backend application for a ride-sharing service, similar to Uber
 - `GET /requests`: Get a list of pending ride requests (requires `ROLE_DRIVER`).
 - `POST /{rideId}/accept`: Accept a ride request (requires `ROLE_DRIVER`).
 
+## Screenshots
+
+### Register a New User
+![Register User](screenshots/register.png)
+
+### Login
+![Login](screenshots/login.png)
+
+### Accept a Ride
+![Accept Ride](screenshots/accept-ride.png)
+
+### Complete a Ride
+![Complete Ride](screenshots/complete-ride.png)
+
 ## How to Run
 
 ### Prerequisites
